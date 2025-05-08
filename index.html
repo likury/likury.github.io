@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projeto de Iniciação Científica – Burning Number de Grafos</title>
+  <title>Projeto de TCC – Burning Number de Grafos</title>
   <style>
     body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f7f7f7; color: #333; }
     header { background: #004d99; color: #fff; padding: 20px 0; }
@@ -21,39 +21,41 @@
   <main>
     <section>
       <h2>Sobre o Projeto</h2>
-      <p>Este trabalho explora o <strong>Burning Number</strong> – uma métrica que quantifica a rapidez com que um processo de propagação (como informação, fogo ou vírus) alcança todos os vértices de um grafo. Nosso objetivo é desenvolver modelos de otimização e levantamentos teóricos que ajudem a limitar ou calcular esse número em diferentes classes de grafos.</p>
+      <p>Este trabalho investiga o <strong>Burning Number</strong> – a menor quantidade de turnos necessários para «queimar» todos os vértices de um grafo quando, a cada turno, um novo vértice é incendiado e as chamas se propagam para os vizinhos. Buscamos compreender os limites teóricos dessa medida e propor modelagens algorítmicas que auxiliem em seu cálculo.</p>
     </section>
 
     <section>
       <h2>Motivação</h2>
-      <p>Compreender o Burning Number auxilia a estimar a vulnerabilidade ou a resiliência de redes a processos de difusão. Isso abrange desde contágio epidemiológico até disseminação de notícias em redes sociais.</p>
+      <p>A conjectura formulada por Bonato <em>et&nbsp;al.</em> (2016) propõe que <span style="white-space: nowrap;">b(G) ≤ ⌈√n⌉</span> para qualquer grafo com <em>n</em> vértices. No artigo <strong>“The Burning Number Conjecture Holds Asymptotically”</strong>, <em>Sergey Norin</em> e <em>Jérémie Turcotte</em> demonstram que essa desigualdade é assintoticamente verdadeira, isto é, <span style="white-space: nowrap;">b(G) ≤ (1 + o(1))√n</span>. Nosso projeto parte desse resultado para investigar se há melhorias possíveis nos limites superior ou inferior do Burning Number, especialmente em classes específicas de grafos.</p>
     </section>
 
     <section>
       <h2>Equipe de Pesquisa</h2>
       <ul>
-        <li><strong>Aluno:</strong> Lucas Sepeda Lima – Bacharelado em Ciência da Computação, Universidade de São Paulo.</li>
-        <li><strong>Orientador:</strong> Prof.&nbsp;Dr.&nbsp;Fábio Happ Botler – Departamento de Matemática, IME‑USP.</li>
+        <li><strong>Aluno:</strong> Lucas Sepeda Lima – Bacharelado em Ciência da Computação, Universidade de São Paulo.</li>
+        <li><strong>Orientador:</strong> Prof.&nbsp;Dr.&nbsp;Fábio Happ Botler – Departamento de Matemática, IME-USP.</li>
       </ul>
     </section>
 
     <section>
       <h2>Intenções do Estudo</h2>
       <ul>
-        <li>Levantar e consolidar resultados existentes sobre o Burning Number.</li>
-        <li>Propor e analisar formulações de Programação Linear Inteira para medir o Burning Number.</li>
-        <li>Estabelecer novos limitantes superiores e inferiores para casos específicos de grafos.</li>
+        <li>Revisar literatura sobre Burning Number e levantar limites conhecidos.</li>
+        <li>Estudar em profundidade o resultado de Norin &amp; Turcotte (2024) e verificar possíveis refinamentos.</li>
+        <li>Propor formulações de Programação Linear Inteira e heurísticas para estimar <em>b(G)</em>.</li>
+        <li>Estabelecer novos limitantes superiores e inferiores para subclasses de grafos (árvores, grades, grafos aleatórios, etc.).</li>
       </ul>
     </section>
 
     <section>
-      <h2>Cronograma Resumido (2024‑2025)</h2>
-      <p>Levantamento bibliográfico, experimentos computacionais iniciais e desenvolvimento de técnicas ocorrerão ao longo de 12 meses, culminando na elaboração e defesa do Trabalho de Conclusão de Curso.</p>
+      <h2>Cronograma Resumido (2024-2025)</h2>
+      <p>• Tri&shy;mes&shy;tre 1: Levantamento bibliográfico e estudo do artigo de Norin &amp; Turcotte.<br>
+         • Tri&shy;mes&shy;tre 2: Desenvolvimento de modelos e experimentos computacionais.<br>
+         • Tri&shy;mes&shy;tre 3: Análise de resultados, escrita do texto final e defesa.</p>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 – Universidade de São Paulo</p>
+    <p>&copy; 2025 – Universidade de São Paulo</p>
   </footer>
 </body>
 </html>
-
